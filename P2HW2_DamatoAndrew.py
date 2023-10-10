@@ -4,7 +4,7 @@
 
 module1 = float(input("Grade for Module 1: "))
 module2 = float(input("Grade for Module 2: "))
-module3 = float(input("Grade for Module 3:"))
+module3 = float(input("Grade for Module 3: "))
 module4 = float(input("Grade for Module 4: "))
 module5 = float(input("Grade for Module 5: "))
 module6 = float(input("Grade for Module 6: "))
