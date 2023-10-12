@@ -11,10 +11,10 @@ age = int(input("Enter your age: "))
 food = input("Whats your favorite food? ")
 
 #Create a dictionary
-my_dict = {"Name": name, "Hair_Color" : hair, "Eye_Color" : eye, \
-           "Height" : height, "Age" : age, "Food": food}
+my_dict = {"name": name, "hair_color" : hair, "eye_color" : eye, \
+           "height" : height, "age" : age, "food": food}
 
-##Get values using the key
-print(f" {my_dict['Name']} is a {my_dict['height']} tall student with {mc_dict['hair']} hair and {mc_dict['eye']} eyes. They are {mc_dict['age']} years old and their favorite food is {mc_dict['food'].}")
+#Get values using the key
+print(f"{my_dict['name']} is a {my_dict['height']} inches tall student with {my_dict['hair_color']}hair and {my_dict['eye_color']} eyes. They are {my_dict['age']} years old and their favorite food is {my_dict['food']}.")
 
 
